@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Actualités
-  target: "/actualites/"
+  target: "/episodes/"
   kind: page
   children: []
 - title: L'équipe
