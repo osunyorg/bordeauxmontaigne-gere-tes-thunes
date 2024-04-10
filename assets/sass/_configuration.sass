@@ -1,25 +1,29 @@
-// Éditer les variables du thème pour configurer votre site web 
-// Variables disponibles : https://github.com/noesya/osuny-hugo-theme-AAA/blob/main/assets/sass/_theme/_configuration.sass
-// Documentation sur : https://developers.osuny.org/docs/theme/theme-aaa/
+$color-accent: #0038FF
+$color-text: #000000
+$color-text-alt: #454545
+$color-background: #FFFFFF
+$color-background-alt: #F2F2F2
+$color-border: rgba(0, 0, 0, 0.30)
+$color-selection: $color-background
+$color-selection-background: rgba($color-text, .7)
 
-//Fonts family
-$body-font-family: "Ubuntu", sans-serif !default
-$heading-font-family: "Paytone One", sans-serif !default
+$body-font-family: "Ubuntu", sans-serif
+$heading-font-family: $body-font-family
 
-$color-background-alt: #000 !default
-$hero-color: #fff !default
-$color-text: #000 !default
-$color-text-alt: #fff !default
-$dropdown-text: #fff !default
+$h1-font-family: "Paytone One", sans-serif
+$h1-weight: normal
 
-$header-color: $color-text-alt !default
-$header-dropdown-color: $dropdown-text !default
+$breadcrumb-color: $color-text
+$breadcrumb-color-active: $color-text-alt
+// $breadcrumb-icon: "caret-right" !default
+// $breadcrumb-icon-color: var(--color-text-alt) !default
 
-$header-sticky-background: #000 !default
-
-// Définition des styles footer
-
-footer#document-footer a
-    color: #fff !important
-footer#document-footer
-    color: #fff !important
+$header-color: $color-background
+$header-background: $color-text
+$header-sticky-background: #000
+$header-logo-height: 60px
+$header-logo-height-desktop: 80px
+$hero-color: $color-background
+$hero-background-color: $color-text
+$footer-color: $color-background
+$footer-background-color: $color-text
