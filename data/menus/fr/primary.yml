@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Accueil
+  target: "/"
+  kind: page
+  children: []
 - title: Gère tes thunes
   target: "/organisations/"
   kind: page
@@ -11,10 +15,6 @@ items:
   children: []
 - title: L'équipe
   target: "/equipe/"
-  kind: page
-  children: []
-- title: Accueil
-  target: "/"
   kind: page
   children: []
 
