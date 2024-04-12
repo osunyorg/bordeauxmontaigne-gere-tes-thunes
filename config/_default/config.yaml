@@ -9,3 +9,6 @@ params:
     position: after-hero
   search:
     active: false  
+  logo:
+    header: "/assets/images/logo.svg"
+    footer: "/assets/images/logofooter.svg"
