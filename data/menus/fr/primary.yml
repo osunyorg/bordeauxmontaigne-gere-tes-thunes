@@ -1,16 +1,16 @@
 ---
 title: Menu principal
 items:
+- title: Gère tes thunes
+  target: "/organisations/"
+  kind: page
+  children: []
 - title: Episodes
   target: "/episodes/"
   kind: page
   children: []
 - title: L'équipe
   target: "/equipe/"
-  kind: page
-  children: []
-- title: À propos
-  target: "/organisations/"
   kind: page
   children: []
 
