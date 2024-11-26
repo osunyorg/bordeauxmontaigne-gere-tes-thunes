@@ -5,16 +5,20 @@ items:
   target: "/"
   kind: page
   children: []
+  file: content/fr/_index.html
 - title: Gère tes thunes
   target: "/organisations/"
   kind: page
   children: []
+  file: content/fr/organizations/_index.html
 - title: Episodes
   target: "/episodes/"
   kind: page
   children: []
+  file: content/fr/posts/_index.html
 - title: L'équipe
   target: "/equipe/"
   kind: page
   children: []
+  file: content/fr/persons/_index.html
 
